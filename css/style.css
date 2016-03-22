@@ -1,0 +1,163 @@
+body {
+	background: #edf2f1 !important;
+}
+
+/* Navigation */
+
+nav {
+	background-color: #edf2f1;
+	width: 100%;
+	z-index: 1;
+}
+
+@media screen and (min-width: 40em) {
+	nav {
+		background-color: #edf2f1;
+		height: 100%;
+	    right: 0;
+	    overflow: hidden;
+	    position: fixed;
+	    top: 0;
+	    width: 20%;
+	    z-index: 1;
+	}
+
+	nav ul {
+		position: absolute;
+		top: 232px;
+		margin-left: 0;
+	}
+}
+
+nav ul li {
+	list-style-type: none;
+    margin: 20px 0;
+    padding: 0 5px;
+}
+
+@media screen and (max-width: 39.9375em) {
+	.title-bar {
+		background: #5e5e5e !important;
+		padding: 11px 7px !important;
+	}
+
+	.menu-vertical {
+		margin: 0;
+	}
+
+	nav ul li {
+		margin: 0;
+		padding: 10px 0 10px 10px;
+	}
+
+	nav ul li a {
+		padding: 10px 0;
+		text-align: center;
+	}
+}
+
+nav ul li a {
+	color: #5e5e5e;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+nav ul li a:hover {
+	color: #edf2f1;
+}
+
+#link1 {
+	background-color: #c5eae4;
+}
+
+#link2 {
+	background-color: #e3a48d;
+}
+
+#link3 {
+	background-color: #fcdf68;
+}
+
+#link4 {
+	background-color: #fff;
+}
+
+/* Header */
+
+header {
+	background-color: #e3a48d;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+
+.title {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 80px;
+	font-weight: 700;
+	color: #5e5e5e;
+	text-transform: uppercase;
+	padding: 70px 0 70px 180px;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 39.9375em) {
+	.title {
+		font-size: 48px;
+		text-align: center;
+		padding: 70px 0;
+	}
+}
+
+.project-arrows {
+	position: absolute;
+    bottom: 5px;
+    right: 25%;
+}
+
+.arrows {
+	color: #fcdf68;
+    font-size: 40px;
+    padding: 0 15px;
+}
+
+/* Projects */
+
+.projects {
+	border-top: 25px solid #5e5e5e;
+	margin-bottom: 10%;
+}
+
+@media screen and (max-width: 39.9375em) {
+	.projects {
+		margin: 0 10% 10% 10%;
+	}
+}
+
+@media screen and (min-width: 40em) {
+	.projects {
+		padding-right: 20%;
+		margin-left: 10%;
+	}
+}
+
+.project-img {
+	background-color: #fff;
+    padding: 50px;
+    margin-top: 40px;
+}
+
+.project-description {
+	font-family: 'Libre Baskerville', serif;
+	color: #5e5e5e;
+	margin-top: 40px;
+	line-height: 35px;
+	padding: 0 25px 0 25px;
+}
+
+.center-img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
