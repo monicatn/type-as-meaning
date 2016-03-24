@@ -144,8 +144,11 @@ header {
 
 .project-img {
 	background-color: #fff;
-    padding: 50px;
-    margin-top: 40px;
+    	margin-top: 40px;
+}
+
+.project-img img {
+	margin: 15px 0;
 }
 
 .project-description {
